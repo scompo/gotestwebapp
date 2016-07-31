@@ -1,5 +1,13 @@
 package myapi
 
+const (
+	GREET = "hello"
+)
+
 func Greeting() string {
-	return "hello"
+	return GREET
+}
+
+func Greet(name string) string{
+	return GREET + " " + name
 }
